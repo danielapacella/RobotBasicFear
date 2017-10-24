@@ -1,0 +1,98 @@
+﻿Build started 29/06/2013 11:39:03.
+     1>Project "C:\QGLViewer\QGLViewer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "debug\QGLViewer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         MOC camera.h
+         MOC frame.h
+         MOC keyFrameInterpolator.h
+         MOC manipulatedCameraFrame.h
+         MOC manipulatedFrame.h
+         MOC qglviewer.h
+         UIC ImageInterface.ui
+         UIC VRenderInterface.ui
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\Qt\4.8.4\include\QtCore /I..\..\Qt\4.8.4\include\QtGui /I..\..\Qt\4.8.4\include\QtOpenGL /I..\..\Qt\4.8.4\include\QtXml /I..\..\Qt\4.8.4\include /I..\..\Qt\4.8.4\include\ActiveQt /Idebug /I. /I"..\..\Qt\4.8.4\mkspecs\win32-msvc2010" /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D CREATE_QGLVIEWER_DLL /D QT_DLL /D QT_THREAD_SUPPORT /D NOMINMAX /D QT_THREAD_SUPPORT /D QT_DLL /D QT_NO_KEYWORDS /D QT_XML_LIB /D QT_OPENGL_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D _WINDLL /Gm- /EHsc /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"debug\\" /Fd".\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt VRender\BSPSortMethod.cpp VRender\BackFaceCullingOptimizer.cpp VRender\EPSExporter.cpp VRender\Exporter.cpp VRender\FIGExporter.cpp VRender\NVector3.cpp VRender\ParserGL.cpp VRender\Primitive.cpp VRender\PrimitivePositioning.cpp VRender\TopologicalSortMethod.cpp VRender\VRender.cpp VRender\Vector2.cpp VRender\Vector3.cpp VRender\VisibilityOptimizer.cpp camera.cpp constraint.cpp frame.cpp VRender\gpc.cpp keyFrameInterpolator.cpp manipulatedCameraFrame.cpp manipulatedFrame.cpp mouseGrabber.cpp qglviewer.cpp quaternion.cpp saveSnapshot.cpp vec.cpp debug\moc_camera.cpp debug\moc_frame.cpp debug\moc_keyFrameInterpolator.cpp debug\moc_manipulatedCameraFrame.cpp debug\moc_manipulatedFrame.cpp debug\moc_qglviewer.cpp -EHs -w34100 -w34189 
+         BSPSortMethod.cpp
+         BackFaceCullingOptimizer.cpp
+         EPSExporter.cpp
+         Exporter.cpp
+         FIGExporter.cpp
+         NVector3.cpp
+         ParserGL.cpp
+         Primitive.cpp
+         PrimitivePositioning.cpp
+         TopologicalSortMethod.cpp
+         VRender.cpp
+         Vector2.cpp
+         Vector3.cpp
+         VisibilityOptimizer.cpp
+         camera.cpp
+         constraint.cpp
+         frame.cpp
+         gpc.cpp
+         keyFrameInterpolator.cpp
+         manipulatedCameraFrame.cpp
+         Generating Code...
+         Compiling...
+         manipulatedFrame.cpp
+         mouseGrabber.cpp
+         qglviewer.cpp
+         quaternion.cpp
+         saveSnapshot.cpp
+         vec.cpp
+         moc_camera.cpp
+         moc_frame.cpp
+         moc_keyFrameInterpolator.cpp
+         moc_manipulatedCameraFrame.cpp
+         moc_manipulatedFrame.cpp
+         moc_qglviewer.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _WINDOWS /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D CREATE_QGLVIEWER_DLL /D QT_DLL /D QT_THREAD_SUPPORT /D NOMINMAX /D QT_THREAD_SUPPORT /D QT_DLL /D QT_NO_KEYWORDS /D QT_XML_LIB /D QT_OPENGL_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D _DEBUG /l"0x0409" /nologo /fo"debug\QGLViewerd_resource.res" c:\libQGLViewer-2.4.0\QGLViewer\QGLViewerd_resource.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\QGLViewerd2.dll" /VERSION:"2.40" /NOLOGO /LIBPATH:c:\Qt\4.8.4\lib glu32.lib opengl32.lib gdi32.lib user32.lib c:\Qt\4.8.4\lib\QtXmld4.lib c:\Qt\4.8.4\lib\QtOpenGLd4.lib c:\Qt\4.8.4\lib\QtGuid4.lib c:\Qt\4.8.4\lib\QtCored4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"debug\QGLViewerd2.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\QGLViewer\debug\QGLViewerd2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /DLL debug\QGLViewerd_resource.res
+         debug\BSPSortMethod.obj
+         debug\BackFaceCullingOptimizer.obj
+         debug\EPSExporter.obj
+         debug\Exporter.obj
+         debug\FIGExporter.obj
+         debug\NVector3.obj
+         debug\ParserGL.obj
+         debug\Primitive.obj
+         debug\PrimitivePositioning.obj
+         debug\TopologicalSortMethod.obj
+         debug\VRender.obj
+         debug\Vector2.obj
+         debug\Vector3.obj
+         debug\VisibilityOptimizer.obj
+         debug\camera.obj
+         debug\constraint.obj
+         debug\frame.obj
+         debug\gpc.obj
+         debug\keyFrameInterpolator.obj
+         debug\manipulatedCameraFrame.obj
+         debug\manipulatedFrame.obj
+         debug\mouseGrabber.obj
+         debug\qglviewer.obj
+         debug\quaternion.obj
+         debug\saveSnapshot.obj
+         debug\vec.obj
+         debug\moc_camera.obj
+         debug\moc_frame.obj
+         debug\moc_keyFrameInterpolator.obj
+         debug\moc_manipulatedCameraFrame.obj
+         debug\moc_manipulatedFrame.obj
+         debug\moc_qglviewer.obj
+            Creating library debug\\QGLViewerd2.lib and object debug\\QGLViewerd2.exp
+         QGLViewer.vcxproj -> C:\QGLViewer\debug\QGLViewerd2.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"debug\\QGLViewerd2.dll;#2" /manifest debug\QGLViewerd2.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "debug\QGLViewer.unsuccessfulbuild".
+         Touching "debug\QGLViewer.lastbuildstate".
+     1>Done Building Project "C:\QGLViewer\QGLViewer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.16
