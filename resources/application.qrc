@@ -1,0 +1,55 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>images/open.png</file>
+    <file>images/save.png</file>
+	<file>images/rotate.png</file>
+	<file>images/show.png</file>
+	<file>images/bias.png</file>
+	<file>images/delta.png</file>
+	<file>images/gain.png</file>
+	<file>images/lesion.png</file>
+        <file>images/label.png</file>
+	<file>images/weight.png</file>
+	<file>images/ddelta.png</file>
+	<file>images/dbias.png</file>
+	<file>images/dgain.png</file>
+	<file>images/speedup.png</file>
+	<file>images/speeddown.png</file>
+	<file>images/wall.png</file>
+	<file>images/round.png</file>
+	<file>images/sround.png</file>
+	<file>images/light.png</file>
+	<file>images/t_area.png</file>
+	<file>images/epuck.png</file>
+	<file>images/epuckBN.png</file>
+	<file>images/showNetwork.png</file>
+	<file>images/addblock.png</file>
+	<file>images/addublock.png</file>
+	<file>images/displayblocks.png</file>
+	<file>images/erase.png</file>
+	<file>images/robot-env.png</file>
+	<file>images/parameters.png</file>
+        <file>images/showfitness.png</file>
+        <file>images/showparam.png</file>
+        <file>images/parse.png</file>
+        <file>images/verbose.png</file>
+        <file>images/fitness.png</file>
+        <file>images/fitnessall.png</file>
+        <file>images/lineage.png</file>
+        <file>images/evolve.png</file>
+        <file>images/save-network.png</file>
+        <file>images/load-network.png</file>
+	<file>images/txfabric.jpg</file>
+	<file>images/epuck3d2.png</file>
+	<file>images/epuckHead.png</file>
+	<file>images/icon3d.png</file>
+	<file>images/legohead.png</file>
+	<file>images/legorostro.png</file>
+	<file>images/robot-env2D.png</file>
+	<file>images/gainblock.png</file>
+	<file>images/test.png</file>
+	<file>images/adaptation.png</file>
+	<file>images/evolution.png</file>
+	<file>images/download.png</file>
+</qresource>
+</RCC>
