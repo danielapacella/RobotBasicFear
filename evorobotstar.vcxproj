@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{54963FE1-45BD-3907-928B-3D7339014F25}</ProjectGuid>
+    <RootNamespace>evorobotstar</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <OutputDirectory>..\bin\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>evorobotstar</PrimaryOutput>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <OutputDirectory>..\bin\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>evorobotstar</PrimaryOutput>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">evorobotstar</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">evorobotstar</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"D:\Qt\include\QtCore";"D:\Qt\include\QtGui";"D:\Qt\include\QtOpenGL";"D:\Qt\include\QtXml";"D:\Qt\include";"source_files";"header_files";"resources";"..\QGLViewer";"D:\Qt\include\ActiveQt";"debug";D:\Qt\mkspecs\default;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>debug\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QT_DLL;QT_XML_LIB;QT_OPENGL_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;gdi32.lib;user32.lib;D:\Qt\lib\qtmaind.lib;../QGLViewer\QGLViewer2.lib;D:\Qt\lib\QtXmld4.lib;D:\Qt\lib\QtOpenGLd4.lib;D:\Qt\lib\QtGuid4.lib;D:\Qt\lib\QtCored4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\Qt\lib;../QGLViewer;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <OutputFile>$(OutDir)\evorobotstar.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QT_DLL;QT_XML_LIB;QT_OPENGL_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"d:\Qt\include\QtCore";"d:\Qt\include\QtGui";"d:\Qt\include\QtOpenGL";"d:\Qt\include\QtXml";"d:\Qt\include";"source_files";"header_files";"resources";"..\QGLViewer";"d:\Qt\include\ActiveQt";"release";d:\Qt\mkspecs\default;%(AdditionalIncludeDirectories);C:\Users\Daniela\Dropbox\C++\Frontiers EVO DECISION UNIT\2010 version Decision unit 250\Codice\QGLViewer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>release\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QT_DLL;QT_NO_DEBUG;QT_XML_LIB;QT_OPENGL_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;gdi32.lib;user32.lib;d:\Qt\lib\qtmain.lib;C:\Users\Daniela\Dropbox\C++\Frontiers EVO DECISION UNIT\2010 version Decision unit 250\Codice\QGLViewer\QGLViewer2.lib;d:\Qt\lib\QtXml4.lib;d:\Qt\lib\QtOpenGL4.lib;d:\Qt\lib\QtGui4.lib;d:\Qt\lib\QtCore4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>d:\Qt\lib;../QGLViewer;%(AdditionalLibraryDirectories);C:\Users\Daniela\Dropbox\C++\Frontiers EVO DECISION UNIT\2010 version Decision unit 250\Codice\QGLViewer;%(AdditionalIncludeDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\evorobotstar.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QT_DLL;QT_NO_DEBUG;QT_XML_LIB;QT_OPENGL_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="source_files\environment.cpp" />
+    <ClCompile Include="source_files\epuck.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"D:\Qt\include\QtCore";"D:\Qt\include\QtGui";"D:\Qt\include\QtOpenGL";"D:\Qt\include\QtXml";"D:\Qt\include";"source_files";"header_files";"resources";"..\QGLViewer";"D:\Qt\include\ActiveQt";"release";D:\Qt\mkspecs\default;%(AdditionalIncludeDirectories);C:\Users\Daniela\Dropbox\C++\Frontiers EVO DECISION UNIT\2010 version Decision unit 250\Codice\QGLViewer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="source_files\epuck_io.cpp" />
+    <ClCompile Include="source_files\epuck_sm.cpp" />
+    <ClCompile Include="source_files\evolution.cpp" />
+    <ClCompile Include="source_files\gcontroller.cpp" />
+    <ClCompile Include="source_files\mainwindow.cpp" />
+    <ClCompile Include="source_files\mesh.cpp" />
+    <ClCompile Include="source_files\musclepair.cpp" />
+    <ClCompile Include="source_files\ncontroller.cpp" />
+    <ClCompile Include="source_files\parameters.cpp" />
+    <ClCompile Include="source_files\rend_controller.cpp" />
+    <ClCompile Include="source_files\rend_epuck.cpp" />
+    <ClCompile Include="source_files\rend_evolution.cpp" />
+    <ClCompile Include="source_files\rend_param.cpp" />
+    <ClCompile Include="source_files\rend_robot3d.cpp" />
+    <ClCompile Include="source_files\utility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header_files\environment.h" />
+    <ClInclude Include="header_files\epuck.h" />
+    <ClInclude Include="header_files\epuck_io.h" />
+    <ClInclude Include="header_files\evolution.h" />
+    <CustomBuild Include="header_files\mainwindow.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\bin\moc.exe;header_files\mainwindow.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_XML_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"D:\Qt\include\QtCore" -I"D:\Qt\include\QtGui" -I"D:\Qt\include\QtOpenGL" -I"D:\Qt\include\QtXml" -I"D:\Qt\include" -I"source_files" -I"header_files" -I"resources" -I"..\QGLViewer" -I"D:\Qt\include\ActiveQt" -I"debug" -ID:\Qt\mkspecs\default -D_MSC_VER=1600 -DWIN32 header_files\mainwindow.h -o debug\moc_mainwindow.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC header_files\mainwindow.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\moc_mainwindow.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\bin\moc.exe;header_files\mainwindow.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"D:\Qt\include\QtCore" -I"D:\Qt\include\QtGui" -I"D:\Qt\include\QtOpenGL" -I"D:\Qt\include\QtXml" -I"D:\Qt\include" -I"source_files" -I"header_files" -I"resources" -I"..\QGLViewer" -I"D:\Qt\include\ActiveQt" -I"release" -ID:\Qt\mkspecs\default -D_MSC_VER=1600 -DWIN32 header_files\mainwindow.h -o release\moc_mainwindow.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC header_files\mainwindow.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\moc_mainwindow.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="header_files\mesh.h" />
+    <ClInclude Include="header_files\mode.h" />
+    <ClInclude Include="header_files\musclepair.h" />
+    <ClInclude Include="header_files\ncontroller.h" />
+    <ClInclude Include="header_files\parameters.h" />
+    <ClInclude Include="header_files\public.h" />
+    <CustomBuild Include="header_files\rend_controller.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\bin\moc.exe;header_files\rend_controller.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_XML_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"D:\Qt\include\QtCore" -I"D:\Qt\include\QtGui" -I"D:\Qt\include\QtOpenGL" -I"D:\Qt\include\QtXml" -I"D:\Qt\include" -I"source_files" -I"header_files" -I"resources" -I"..\QGLViewer" -I"D:\Qt\include\ActiveQt" -I"debug" -ID:\Qt\mkspecs\default -D_MSC_VER=1600 -DWIN32 header_files\rend_controller.h -o debug\moc_rend_controller.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC header_files\rend_controller.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\moc_rend_controller.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\bin\moc.exe;header_files\rend_controller.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"D:\Qt\include\QtCore" -I"D:\Qt\include\QtGui" -I"D:\Qt\include\QtOpenGL" -I"D:\Qt\include\QtXml" -I"D:\Qt\include" -I"source_files" -I"header_files" -I"resources" -I"..\QGLViewer" -I"D:\Qt\include\ActiveQt" -I"release" -ID:\Qt\mkspecs\default -D_MSC_VER=1600 -DWIN32 header_files\rend_controller.h -o release\moc_rend_controller.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC header_files\rend_controller.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\moc_rend_controller.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="header_files\rend_epuck.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\bin\moc.exe;header_files\rend_epuck.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_XML_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"D:\Qt\include\QtCore" -I"D:\Qt\include\QtGui" -I"D:\Qt\include\QtOpenGL" -I"D:\Qt\include\QtXml" -I"D:\Qt\include" -I"source_files" -I"header_files" -I"resources" -I"..\QGLViewer" -I"D:\Qt\include\ActiveQt" -I"debug" -ID:\Qt\mkspecs\default -D_MSC_VER=1600 -DWIN32 header_files\rend_epuck.h -o debug\moc_rend_epuck.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC header_files\rend_epuck.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\moc_rend_epuck.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\bin\moc.exe;header_files\rend_epuck.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"D:\Qt\include\QtCore" -I"D:\Qt\include\QtGui" -I"D:\Qt\include\QtOpenGL" -I"D:\Qt\include\QtXml" -I"D:\Qt\include" -I"source_files" -I"header_files" -I"resources" -I"..\QGLViewer" -I"D:\Qt\include\ActiveQt" -I"release" -ID:\Qt\mkspecs\default -D_MSC_VER=1600 -DWIN32 header_files\rend_epuck.h -o release\moc_rend_epuck.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC header_files\rend_epuck.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\moc_rend_epuck.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="header_files\rend_evolution.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\bin\moc.exe;header_files\rend_evolution.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_XML_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"D:\Qt\include\QtCore" -I"D:\Qt\include\QtGui" -I"D:\Qt\include\QtOpenGL" -I"D:\Qt\include\QtXml" -I"D:\Qt\include" -I"source_files" -I"header_files" -I"resources" -I"..\QGLViewer" -I"D:\Qt\include\ActiveQt" -I"debug" -ID:\Qt\mkspecs\default -D_MSC_VER=1600 -DWIN32 header_files\rend_evolution.h -o debug\moc_rend_evolution.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC header_files\rend_evolution.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\moc_rend_evolution.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\bin\moc.exe;header_files\rend_evolution.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"D:\Qt\include\QtCore" -I"D:\Qt\include\QtGui" -I"D:\Qt\include\QtOpenGL" -I"D:\Qt\include\QtXml" -I"D:\Qt\include" -I"source_files" -I"header_files" -I"resources" -I"..\QGLViewer" -I"D:\Qt\include\ActiveQt" -I"release" -ID:\Qt\mkspecs\default -D_MSC_VER=1600 -DWIN32 header_files\rend_evolution.h -o release\moc_rend_evolution.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC header_files\rend_evolution.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\moc_rend_evolution.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="header_files\rend_param.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\bin\moc.exe;header_files\rend_param.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_XML_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"D:\Qt\include\QtCore" -I"D:\Qt\include\QtGui" -I"D:\Qt\include\QtOpenGL" -I"D:\Qt\include\QtXml" -I"D:\Qt\include" -I"source_files" -I"header_files" -I"resources" -I"..\QGLViewer" -I"D:\Qt\include\ActiveQt" -I"debug" -ID:\Qt\mkspecs\default -D_MSC_VER=1600 -DWIN32 header_files\rend_param.h -o debug\moc_rend_param.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC header_files\rend_param.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\moc_rend_param.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\bin\moc.exe;header_files\rend_param.h;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\bin\moc.exe  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I"D:\Qt\include\QtCore" -I"D:\Qt\include\QtGui" -I"D:\Qt\include\QtOpenGL" -I"D:\Qt\include\QtXml" -I"D:\Qt\include" -I"source_files" -I"header_files" -I"resources" -I"..\QGLViewer" -I"D:\Qt\include\ActiveQt" -I"release" -ID:\Qt\mkspecs\default -D_MSC_VER=1600 -DWIN32 header_files\rend_param.h -o release\moc_rend_param.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC header_files\rend_param.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\moc_rend_param.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="header_files\rend_robot3d.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debug\moc_mainwindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="release\moc_mainwindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="debug\moc_rend_controller.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="release\moc_rend_controller.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="debug\moc_rend_epuck.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="release\moc_rend_epuck.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="debug\moc_rend_evolution.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="release\moc_rend_evolution.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="debug\moc_rend_param.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="release\moc_rend_param.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="debug\qrc_application.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="release\qrc_application.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\images\adaptation.png" />
+    <None Include="resources\images\addblock.png" />
+    <None Include="resources\images\addublock.png" />
+    <CustomBuild Include="resources\application.qrc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\bin\rcc.exe;resources\application.qrc;resources\images\adaptation.png;resources\images\addblock.png;resources\images\addublock.png;resources\images\bias.png;resources\images\dbias.png;resources\images\ddelta.png;resources\images\delta.png;resources\images\dgain.png;resources\images\displayblocks.png;resources\images\download.png;resources\images\epuck.png;resources\images\epuck3d2.png;resources\images\epuckBN.png;resources\images\epuckHead.png;resources\images\erase.png;resources\images\evolution.png;resources\images\evolve.png;resources\images\fitness.png;resources\images\fitnessall.png;resources\images\gain.png;resources\images\gainblock.png;resources\images\icon3d.png;resources\images\label.png;resources\images\legohead.png;resources\images\legorostro.png;resources\images\lesion.png;resources\images\light.png;resources\images\lineage.png;resources\images\load-network.png;resources\images\open.png;resources\images\parameters.png;resources\images\parse.png;resources\images\robot-env.png;resources\images\robot-env2D.png;resources\images\rotate.png;resources\images\round.png;resources\images\save-network.png;resources\images\save.png;resources\images\show.png;resources\images\showNetwork.png;resources\images\showfitness.png;resources\images\showparam.png;resources\images\speeddown.png;resources\images\speedup.png;resources\images\sround.png;resources\images\t_area.png;resources\images\test.png;resources\images\txfabric.jpg;resources\images\verbose.png;resources\images\wall.png;resources\images\weight.png;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\bin\rcc.exe -name application resources\application.qrc -o debug\qrc_application.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RCC resources\application.qrc</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\qrc_application.cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\bin\rcc.exe;resources\application.qrc;resources\images\adaptation.png;resources\images\addblock.png;resources\images\addublock.png;resources\images\bias.png;resources\images\dbias.png;resources\images\ddelta.png;resources\images\delta.png;resources\images\dgain.png;resources\images\displayblocks.png;resources\images\download.png;resources\images\epuck.png;resources\images\epuck3d2.png;resources\images\epuckBN.png;resources\images\epuckHead.png;resources\images\erase.png;resources\images\evolution.png;resources\images\evolve.png;resources\images\fitness.png;resources\images\fitnessall.png;resources\images\gain.png;resources\images\gainblock.png;resources\images\icon3d.png;resources\images\label.png;resources\images\legohead.png;resources\images\legorostro.png;resources\images\lesion.png;resources\images\light.png;resources\images\lineage.png;resources\images\load-network.png;resources\images\open.png;resources\images\parameters.png;resources\images\parse.png;resources\images\robot-env.png;resources\images\robot-env2D.png;resources\images\rotate.png;resources\images\round.png;resources\images\save-network.png;resources\images\save.png;resources\images\show.png;resources\images\showNetwork.png;resources\images\showfitness.png;resources\images\showparam.png;resources\images\speeddown.png;resources\images\speedup.png;resources\images\sround.png;resources\images\t_area.png;resources\images\test.png;resources\images\txfabric.jpg;resources\images\verbose.png;resources\images\wall.png;resources\images\weight.png;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\bin\rcc.exe -name application resources\application.qrc -o release\qrc_application.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RCC resources\application.qrc</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\qrc_application.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="resources\images\bias.png" />
+    <None Include="resources\images\dbias.png" />
+    <None Include="resources\images\ddelta.png" />
+    <None Include="resources\images\delta.png" />
+    <None Include="resources\images\dgain.png" />
+    <None Include="resources\images\displayblocks.png" />
+    <None Include="resources\images\download.png" />
+    <None Include="resources\images\epuck.png" />
+    <None Include="resources\images\epuck3d2.png" />
+    <None Include="resources\images\epuckBN.png" />
+    <None Include="resources\images\epuckHead.png" />
+    <None Include="resources\images\erase.png" />
+    <None Include="resources\images\evolution.png" />
+    <None Include="resources\images\evolve.png" />
+    <None Include="resources\images\fitness.png" />
+    <None Include="resources\images\fitnessall.png" />
+    <None Include="resources\images\gain.png" />
+    <None Include="resources\images\gainblock.png" />
+    <None Include="resources\images\icon3d.png" />
+    <None Include="resources\images\label.png" />
+    <None Include="resources\images\legohead.png" />
+    <None Include="resources\images\legorostro.png" />
+    <None Include="resources\images\lesion.png" />
+    <None Include="resources\images\light.png" />
+    <None Include="resources\images\lineage.png" />
+    <None Include="resources\images\load-network.png" />
+    <None Include="resources\images\open.png" />
+    <None Include="resources\images\parameters.png" />
+    <None Include="resources\images\parse.png" />
+    <None Include="resources\images\robot-env.png" />
+    <None Include="resources\images\robot-env2D.png" />
+    <None Include="resources\images\rotate.png" />
+    <None Include="resources\images\round.png" />
+    <None Include="resources\images\save-network.png" />
+    <None Include="resources\images\save.png" />
+    <None Include="resources\images\show.png" />
+    <None Include="resources\images\showNetwork.png" />
+    <None Include="resources\images\showfitness.png" />
+    <None Include="resources\images\showparam.png" />
+    <None Include="resources\images\speeddown.png" />
+    <None Include="resources\images\speedup.png" />
+    <None Include="resources\images\sround.png" />
+    <None Include="resources\images\t_area.png" />
+    <None Include="resources\images\test.png" />
+    <None Include="resources\images\txfabric.jpg" />
+    <None Include="resources\images\verbose.png" />
+    <None Include="resources\images\wall.png" />
+    <None Include="resources\images\weight.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

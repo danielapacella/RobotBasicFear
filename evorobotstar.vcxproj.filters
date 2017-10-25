@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source_files\environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source_files\epuck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source_files\epuck_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source_files\epuck_sm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source_files\evolution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source_files\gcontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source_files\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source_files\mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source_files\musclepair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source_files\ncontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source_files\parameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source_files\rend_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source_files\rend_epuck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source_files\rend_evolution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source_files\rend_param.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source_files\rend_robot3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source_files\utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header_files\environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header_files\epuck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header_files\epuck_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header_files\evolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="header_files\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="header_files\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header_files\mode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header_files\musclepair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header_files\ncontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header_files\parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header_files\public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="header_files\rend_controller.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header_files\rend_epuck.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header_files\rend_evolution.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header_files\rend_param.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="header_files\rend_robot3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debug\moc_mainwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_mainwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_rend_controller.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_rend_controller.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_rend_epuck.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_rend_epuck.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_rend_evolution.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_rend_evolution.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_rend_param.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_rend_param.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\qrc_application.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\qrc_application.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\images\adaptation.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\addblock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\addublock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="resources\application.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="resources\images\bias.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\dbias.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\ddelta.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\delta.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\dgain.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\displayblocks.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\download.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\epuck.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\epuck3d2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\epuckBN.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\epuckHead.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\erase.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\evolution.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\evolve.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\fitness.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\fitnessall.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\gain.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\gainblock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\icon3d.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\label.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\legohead.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\legorostro.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\lesion.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\light.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\lineage.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\load-network.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\parameters.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\parse.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\robot-env.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\robot-env2D.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\rotate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\round.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\save-network.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\show.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\showNetwork.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\showfitness.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\showparam.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\speeddown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\speedup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\sround.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\t_area.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\test.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\txfabric.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\verbose.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\wall.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\images\weight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
