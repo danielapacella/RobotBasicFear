@@ -1,0 +1,263 @@
+﻿Build started 08/04/2016 15:14:56.
+     1>Project "C:\Users\Daniela\Dropbox\C++\Frontiers EVO DECISION UNIT\2010 version sensation PERCENT\Codice\evorobotstar.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "release\evorobotstar.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Qt\include\QtCore /ID:\Qt\include\QtGui /ID:\Qt\include\QtOpenGL /ID:\Qt\include\QtXml /ID:\Qt\include /Isource_files /Iheader_files /Iresources /I..\QGLViewer /ID:\Qt\include\ActiveQt /Irelease /ID:\Qt\mkspecs\default /Id:\Qt\include\QtCore /Id:\Qt\include\QtGui /Id:\Qt\include\QtOpenGL /Id:\Qt\include\QtXml /Id:\Qt\include /Isource_files /Iheader_files /Iresources /I..\QGLViewer /Id:\Qt\include\ActiveQt /Irelease /Id:\Qt\mkspecs\default /I"C:\Users\Daniela\Dropbox\C++\Frontiers EVO DECISION UNIT\2010 version Decision unit 250\Codice\QGLViewer" /I"C:\Users\Daniela\Dropbox\C++\Frontiers EVO DECISION UNIT\2010 version Decision unit 250\Codice\QGLViewer" /Id:\Qt\include\QtCore /Id:\Qt\include\QtGui /Id:\Qt\include\QtOpenGL /Id:\Qt\include\QtXml /Id:\Qt\include /Isource_files /Iheader_files /Iresources /I..\QGLViewer /Id:\Qt\include\ActiveQt /Irelease /Id:\Qt\mkspecs\default /I"C:\Users\Daniela\Dropbox\C++\Frontiers EVO DECISION UNIT\2010 version Decision unit 250\Codice\QGLViewer" /Zi /nologo /W3 /WX- /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D QT_XML_LIB /D QT_OPENGL_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"release\\" /Fd".\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source_files\epuck.cpp -Zm200 -w34100 -w34189 
+         epuck.cpp
+     1>source_files\epuck.cpp(169): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(284): warning C4129: '_' : unrecognized character escape sequence
+     1>source_files\epuck.cpp(165): warning C4101: 'w' : unreferenced local variable
+     1>source_files\epuck.cpp(164): warning C4101: 'iii' : unreferenced local variable
+     1>source_files\epuck.cpp(164): warning C4101: 'i' : unreferenced local variable
+     1>source_files\epuck.cpp(164): warning C4101: 'ii' : unreferenced local variable
+     1>source_files\epuck.cpp(355): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(357): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(359): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(383): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(385): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(387): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(390): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(393): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(396): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(399): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(401): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(403): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(405): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(407): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(410): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(413): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(416): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(419): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(422): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(425): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(428): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(431): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(435): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(440): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(444): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(448): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(451): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(454): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(457): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(460): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(465): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(469): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(472): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(474): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(476): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(479): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(482): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(484): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(522): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>source_files\epuck.cpp(546): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(550): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(556): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(562): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(569): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(576): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(583): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(590): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(598): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(608): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(622): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(630): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(684): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(311): warning C4101: 'eobj' : unreferenced local variable
+     1>source_files\epuck.cpp(975): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>source_files\epuck.cpp(988): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>source_files\epuck.cpp(1017): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>source_files\epuck.cpp(730): warning C4101: 'arb_ind' : unreferenced local variable
+     1>source_files\epuck.cpp(729): warning C4101: 'arb_max' : unreferenced local variable
+     1>source_files\epuck.cpp(1253): warning C4101: 'tt' : unreferenced local variable
+     1>source_files\epuck.cpp(1271): warning C4101: 'tt' : unreferenced local variable
+     1>source_files\epuck.cpp(1295): warning C4101: 'i' : unreferenced local variable
+     1>source_files\epuck.cpp(1300): warning C4101: 'w1' : unreferenced local variable
+     1>source_files\epuck.cpp(1297): warning C4101: 'tw' : unreferenced local variable
+     1>source_files\epuck.cpp(1300): warning C4101: 'w2' : unreferenced local variable
+     1>source_files\epuck.cpp(1400): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(1401): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>source_files\epuck.cpp(1406): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>source_files\epuck.cpp(1411): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(1412): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>source_files\epuck.cpp(1418): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(1419): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>source_files\epuck.cpp(1578): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(1580): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(1584): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(1586): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(1589): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(1593): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>source_files\epuck.cpp(1834): warning C4101: 'pi2' : unreferenced local variable
+     1>source_files\epuck.cpp(1833): warning C4101: 'pi1' : unreferenced local variable
+     1>source_files\epuck.cpp(1879): warning C4101: 'p2' : unreferenced local variable
+     1>source_files\epuck.cpp(1878): warning C4101: 'p1' : unreferenced local variable
+     1>source_files\epuck.cpp(1958): warning C4101: 'i' : unreferenced local variable
+     1>source_files\epuck.cpp(1962): warning C4101: 'w1' : unreferenced local variable
+     1>source_files\epuck.cpp(1960): warning C4101: 'tw' : unreferenced local variable
+     1>source_files\epuck.cpp(1962): warning C4101: 'w2' : unreferenced local variable
+     1>source_files\epuck.cpp(2149): warning C4101: 'tt' : unreferenced local variable
+     1>source_files\epuck.cpp(2183): warning C4101: 'tt' : unreferenced local variable
+     1>source_files\epuck.cpp(2223): warning C4101: 'w1' : unreferenced local variable
+     1>source_files\epuck.cpp(2221): warning C4101: 'tw' : unreferenced local variable
+     1>source_files\epuck.cpp(2223): warning C4101: 'w2' : unreferenced local variable
+     1>source_files\epuck.cpp(2228): warning C4101: 'objc' : unreferenced local variable
+     1>source_files\epuck.cpp(2286): warning C4101: 'i' : unreferenced local variable
+     1>source_files\epuck.cpp(2292): warning C4101: 'w1' : unreferenced local variable
+     1>source_files\epuck.cpp(2288): warning C4101: 'tw' : unreferenced local variable
+     1>source_files\epuck.cpp(2292): warning C4101: 'w2' : unreferenced local variable
+     1>source_files\epuck.cpp(2598): warning C4100: 'pind' : unreferenced formal parameter
+     1>source_files\epuck.cpp(2629): warning C4189: 'correctTarget' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(2631): warning C4189: 'totalCheckedTarget' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(2630): warning C4189: 'wrongTarget' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(2632): warning C4189: 'bootStrapDistance' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(2626): warning C4101: 'tt' : unreferenced local variable
+     1>source_files\epuck.cpp(2721): warning C4189: 'correctTarget' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(2723): warning C4189: 'totalCheckedTarget' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(2722): warning C4189: 'wrongTarget' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(2724): warning C4189: 'bootStrapDistance' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(2718): warning C4101: 'tt' : unreferenced local variable
+     1>source_files\epuck.cpp(2806): warning C4189: 'correctTarget' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(2808): warning C4189: 'totalCheckedTarget' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(2807): warning C4189: 'wrongTarget' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(2809): warning C4189: 'bootStrapDistance' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(2803): warning C4101: 'tt' : unreferenced local variable
+     1>source_files\epuck.cpp(2924): warning C4189: 'correctTarget' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(2926): warning C4189: 'totalCheckedTarget' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(2925): warning C4189: 'wrongTarget' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(2927): warning C4189: 'bootStrapDistance' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(2920): warning C4101: 'tt' : unreferenced local variable
+     1>source_files\epuck.cpp(3189): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>source_files\epuck.cpp(3190): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>source_files\epuck.cpp(3191): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>source_files\epuck.cpp(3192): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>source_files\epuck.cpp(3193): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>source_files\epuck.cpp(3171): warning C4189: 'correctTarget' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(3173): warning C4189: 'totalCheckedTarget' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(3172): warning C4189: 'wrongTarget' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(3174): warning C4189: 'bootStrapDistance' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(3168): warning C4101: 'tt' : unreferenced local variable
+     1>source_files\epuck.cpp(3482): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>source_files\epuck.cpp(3487): warning C4189: 'mindist' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(3482): warning C4189: 'pi' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(3486): warning C4189: 'setDist' : local variable is initialized but not referenced
+     1>source_files\epuck.cpp(3471): warning C4101: 'tt' : unreferenced local variable
+     1>source_files\epuck.cpp(3667): warning C4100: 'epoch' : unreferenced formal parameter
+     1>source_files\epuck.cpp(3667): warning C4100: 'step' : unreferenced formal parameter
+     1>source_files\epuck.cpp(3705): warning C4101: 'i' : unreferenced local variable
+     1>source_files\epuck.cpp(3710): warning C4101: 'w1' : unreferenced local variable
+     1>source_files\epuck.cpp(3707): warning C4101: 'tw' : unreferenced local variable
+     1>source_files\epuck.cpp(3710): warning C4101: 'w2' : unreferenced local variable
+     1>source_files\epuck.cpp(3810): warning C4101: 'startset' : unreferenced local variable
+     1>source_files\epuck.cpp(3855): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\daniela\dropbox\c++\frontiers evo decision unit\2010 version sensation percent\codice\source_files\epuck.cpp(1152): warning C4700: uninitialized local variable 'nmotor' used
+     1>c:\users\daniela\dropbox\c++\frontiers evo decision unit\2010 version sensation percent\codice\source_files\epuck.cpp(1152): warning C4700: uninitialized local variable 'a' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\\evorobotstar.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:d:\Qt\lib /LIBPATH:../QGLViewer /LIBPATH:"C:\Users\Daniela\Dropbox\C++\Frontiers EVO DECISION UNIT\2010 version Decision unit 250\Codice\QGLViewer" glu32.lib opengl32.lib gdi32.lib user32.lib d:\Qt\lib\qtmain.lib "C:\Users\Daniela\Dropbox\C++\Frontiers EVO DECISION UNIT\2010 version Decision unit 250\Codice\QGLViewer\QGLViewer2.lib" d:\Qt\lib\QtXml4.lib d:\Qt\lib\QtOpenGL4.lib d:\Qt\lib\QtGui4.lib d:\Qt\lib\QtCore4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"release\evorobotstar.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Daniela\Dropbox\C++\Frontiers EVO DECISION UNIT\2010 version sensation PERCENT\bin\evorobotstar.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 release\environment.obj
+         release\epuck.obj
+         release\epuck_io.obj
+         release\epuck_sm.obj
+         release\evolution.obj
+         release\gcontroller.obj
+         release\mainwindow.obj
+         release\mesh.obj
+         release\musclepair.obj
+         release\ncontroller.obj
+         release\parameters.obj
+         release\rend_controller.obj
+         release\rend_epuck.obj
+         release\rend_evolution.obj
+         release\rend_param.obj
+         release\rend_robot3d.obj
+         release\utility.obj
+         release\moc_mainwindow.obj
+         release\moc_rend_controller.obj
+         release\moc_rend_epuck.obj
+         release\moc_rend_evolution.obj
+         release\moc_rend_param.obj
+         release\qrc_application.obj "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" 
+         evorobotstar.vcxproj -> C:\Users\Daniela\Dropbox\C++\Frontiers EVO DECISION UNIT\2010 version sensation PERCENT\Codice\..\bin\evorobotstar.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\bin\\evorobotstar.exe;#1" /manifest release\evorobotstar.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "release\evorobotstar.unsuccessfulbuild".
+         Touching "release\evorobotstar.lastbuildstate".
+     1>Done Building Project "C:\Users\Daniela\Dropbox\C++\Frontiers EVO DECISION UNIT\2010 version sensation PERCENT\Codice\evorobotstar.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.14
