@@ -1,0 +1,60 @@
+adaptation
+npopulations 1
+nteam 1
+ngenerations 5000
+nreplications 10
+nreproducing 20
+offspring 1
+mutation_rate 2
+pnullvalue 0
+seed 1
+savenbest 1
+elitism 0
+evoalgorithm 1
+additional_ind 5000
+loadfixedgenotypes 0
+
+network
+rec_hiddens 0
+delta_hiddens 0
+drawnstyle 0
+drawn_allt 0
+
+lifetime
+nworlds 1
+ntrials 1000
+ncycles 1000
+timelaps 1
+sensornoise 0.00
+stepTarget 400
+stop_on_crash 1
+displaceObjects 2
+drawtrace 1000
+nTargetSetting 3
+pause 0
+
+
+individual
+nhiddens 20
+motors 2
+retina 7
+robottype 5
+retinaX 400
+retinaY 400
+retinaSize 100
+eyeTargetRepeat 2
+retinaReceptiveField 25.0
+retinaFovea 0
+motorEfference 0
+retinaMotorControlType 1
+retinaZoomMotor 0
+decisionUnits 2
+emotionUnits 0
+sensationUnits 2
+clock 0
+ffitness cancellationTaskSensation
+
+display
+displaysensors 0
+drawneuronsdx 500
+logData 3
